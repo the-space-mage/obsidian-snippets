@@ -1,0 +1,17 @@
+table {
+    break-inside: avoid-page;
+}
+
+pre {
+    break-inside: avoid-page;
+}
+
+li {
+    break-inside: avoid-page;
+}
+
+@media print {
+    .pagebreak {
+        break-after: page;
+    }
+}

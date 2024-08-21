@@ -1,0 +1,180 @@
+.callout[data-callout="flex"] {
+    --callout-color: transparent;
+    --callout-icon: none;
+    --code-background: transparent;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: var(--text-normal);
+    display: inline-block;
+    padding: 0px;
+}
+
+.callout[data-callout="flex"]>.callout-title {
+    background-color: var(--text-normal);
+    color: var(--background-primary);
+    margin: -1px;
+    column-gap: 0px;
+    padding: 0.2em 0.5em;
+}
+
+.callout[data-callout="flex"]>.callout-content {
+    padding: 0.5em;
+}
+
+.callout[data-callout="simple"] {
+    --callout-color: transparent;
+    --callout-icon: none;
+    /* --code-background: transparent; */
+    break-inside: avoid-page;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: var(--text-normal);
+    padding: 0px;
+    margin: 2em 0em;
+}
+
+.callout[data-callout="simple"]>.callout-title {
+    background-color: var(--text-normal);
+    color: var(--background-primary);
+    margin: -1px;
+    column-gap: 0px;
+    padding: 0.25em 0.5em;
+}
+
+.callout[data-callout="simple"]>.callout-content {
+    padding: 0.5em 1.5em;
+}
+
+.callout[data-callout="code-flex"] {
+    --callout-color: transparent;
+    --callout-icon: none;
+    --code-background: transparent;
+    font-family: var(--font-monospace);
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: var(--text-normal);
+    display: inline-block;
+    padding: 0px;
+}
+
+.callout[data-callout="code-flex"]>.callout-title {
+    background-color: var(--text-normal);
+    color: var(--background-primary);
+    margin: -1px;
+    column-gap: 0px;
+    padding: 0.2em 0.5em;
+}
+
+.callout[data-callout="code-flex"]>.callout-content {
+    padding: 0.2em 0.5em;
+}
+
+.callout[data-callout="code-flex"] pre {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.callout[data-callout="code-flex"] code {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.callout[data-callout="code"] {
+    --callout-color: transparent;
+    --callout-icon: none;
+    --code-background: transparent;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: var(--text-normal);
+    padding: 0px;
+}
+
+.callout[data-callout="code"]>.callout-title {
+    font-family: var(--font-monospace);
+    background-color: var(--text-normal);
+    color: var(--background-primary);
+    margin: -1px;
+    column-gap: 0px;
+    padding: 0.2em 0.5em;
+}
+
+.callout[data-callout="code"]>.callout-content {
+    padding: 0.5em;
+}
+
+.callout[data-callout="code"] pre {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.callout[data-callout="code"] code {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.callout[data-callout="flex-center"] {
+    --callout-color: transparent;
+    --callout-icon: none;
+    --code-background: transparent;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: var(--text-normal);
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px;
+}
+
+.callout[data-callout="flex-center"]>.callout-title {
+    background-color: var(--text-normal);
+    color: var(--background-primary);
+    margin: -1px;
+    column-gap: 0px;
+    padding: 0.2em 0.5em;
+}
+
+.callout[data-callout="flex-center"]>.callout-content {
+    padding: 0.5em;
+}
+
+.callout[data-callout="code-flex-center"] {
+    --callout-color: transparent;
+    --callout-icon: none;
+    --code-background: transparent;
+    font-family: var(--font-monospace);
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: var(--text-normal);
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px;
+}
+
+.callout[data-callout="code-flex-center"]>.callout-title {
+    background-color: var(--text-normal);
+    color: var(--background-primary);
+    margin: -1px;
+    column-gap: 0px;
+    padding: 0.2em 0.5em;
+}
+
+.callout[data-callout="code-flex-center"]>.callout-content {
+    padding: 0.2em 0.5em;
+}
+
+.callout[data-callout="code-flex-center"] pre {
+    padding: 0px;
+    margin: 0px;
+}
+
+.callout[data-callout="code-flex-center"] code {
+    padding: 0px;
+    margin: 0px;
+}

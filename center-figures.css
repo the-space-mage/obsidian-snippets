@@ -1,0 +1,15 @@
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+div.mermaid {
+    text-align: center;
+}
+
+.mermaid svg {
+    width: 90%;
+}

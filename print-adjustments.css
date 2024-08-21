@@ -1,0 +1,21 @@
+@media print {
+    .theme-dark, .theme-light {
+        --font-text-size: 14px !important;
+    }
+
+    body {
+        --link-color: var(--text-normal);
+        --link-decoration: none;
+        --link-external-color: var(--link-color);
+        --link-external-decoration: underline;
+    }
+
+    h1 {
+        --h1-size: 2.5em;
+        --p-spacing: 1.5em;
+        /* padding-bottom: 0.5em;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-bottom-color: var(--text-normal); */
+    }
+}

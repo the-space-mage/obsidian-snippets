@@ -1,0 +1,73 @@
+.theme-dark {
+    --interactive-accent: var(--text-normal);
+    --text-on-accent: var(--color-base-00);
+    --color-red-rgb: 255, 123, 114;
+    --color-red: #ff7b72;
+    --color-orange-rgb: 255, 166, 87;
+    --color-orange: #ffa657;
+    --color-yellow-rgb: 204, 167, 0;
+    --color-yellow: #cca700;
+    --color-green: 86, 211, 100;
+    --color-green: #56d364;
+    --color-cyan-rgb: 86, 212, 221;
+    --color-cyan: #56d4dd;
+    --color-blue-rgb: 121, 192, 255;
+    --color-blue: #79c0ff;
+    --color-purple-rgb: 210, 158, 255;
+    --color-purple: #d2a8ff;
+    --color-pink-rgb: 247, 120, 186;
+    --color-pink: #f778ba;
+}
+
+.theme-light {
+    --interactive-accent: var(--text-normal);
+    --text-on-accent-invert: var(--color-base-100);
+    --color-red-rgb: 207, 34, 46;
+    --color-red: #cf222e;
+    --color-orange-rgb: 149, 56, 0;
+    --color-orange: #953800;
+    --color-yellow-rgb: 99, 60, 1;
+    --color-yellow: #633c01;
+    --color-green-rgb: 17, 99, 41;
+    --color-green: #116329;
+    --color-cyan-rgb: 27, 124, 131;
+    --color-cyan: #1b7c83;
+    --color-blue-rgb: 9, 105, 218;
+    --color-blue: #0969da;
+    --color-purple-rgb: 130, 80, 223;
+    --color-purple: #8250df;
+    --color-pink-rgb: 191, 57, 137;
+    --color-pink: #bf3989;
+}
+
+body {
+    --code-keyword: var(--color-red);
+    --code-function: var(--color-purple);
+    --code-string: var(--color-cyan);
+    --code-important: var(--color-orange);
+    --code-tag: var(--color-green);
+    --code-value: var(--color-blue);
+    --code-property: var(--color-green);
+    --toggle-thumb-color: var(--background-primary);
+}
+
+input.slider::-webkit-slider-thumb {
+    background: var(--text-normal);
+}
+
+input.slider::-webkit-slider-thumb:hover {
+    background: var(--color-base-70)
+}
+
+.checkbox-container {
+    background-color: var(--color-base-50);
+}
+
+.checkbox-container.is-enabled {
+    --toggle-thumb-color: var(--background-primary);
+    background-color: ;
+}
+
+input[type="range" i] {
+    color: var(--text-normal);
+}
